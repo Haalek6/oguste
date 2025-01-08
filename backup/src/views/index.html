@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oguste - Assistant IA pour Agents Immobiliers</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Oguste</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#upload">Upload Documents</a></li>
+                <li><a href="#documents">Mes Documents</a></li>
+                <li><a href="#synthese">Synthèse</a></li>
+                <li><a href="#notifications">Notifications</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="upload-section">
+            <h2>Upload de Documents</h2>
+            <div class="upload-zone" id="dropzone">
+                <p>Glissez vos documents ici ou</p>
+                <button class="upload-btn">Sélectionner des fichiers</button>
+            </div>
+        </section>
+
+        <section id="document-list">
+            <h2>Documents Récents</h2>
+            <div class="documents-grid">
+                <!-- Les documents seront injectés ici dynamiquement -->
+            </div>
+        </section>
+    </main>
+
+    <script src="../js/index.js" type="module"></script>
+</body>
+</html>
